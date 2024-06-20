@@ -8,15 +8,15 @@ The following modules are included in this repository
 
 ## Usage
 
-Create a module on based on requirement of resources
+Create a module based on requirement of resources
 
 ### Step 1: Clone the Repository
 git clone <repository-url>
 cd <repository-directory>
 
-### Step 2: add requirent information based on below examples
+### Step 2: add requirement information based on below examples
 ## Example
-####################   Creage a VPC using below module ###############################
+####################   Create a VPC using below module ###############################
 
 module "vpc" {
   source          = "./modules/vpc"
@@ -53,7 +53,7 @@ module "security_group" {
   }
 }
 
-## Backed file update
+## Backend file update
 
 1) Update s3 bucket information for statefile 
 2) Update location based on requirement
@@ -61,7 +61,7 @@ module "security_group" {
 
 ## Teraaform Operations
 terraform init
-terrform plan
+terraform plan
 terraform apply
 
 
